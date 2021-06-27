@@ -1,0 +1,164 @@
+.body {
+    margin: 0;
+    font-size: 14px;
+    font-family: 'Merriweather', serif;
+}
+
+* , *::before, *::after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 10px;
+    font-family: 'Old Standard TT', serif;
+
+    background: black;
+}
+
+.header_inner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    background: black;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.header_icons {
+    padding: 0 20px;
+}
+
+.icon_social {
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+/*down header*/
+
+.header_downer {
+    margin: 10px 0;
+    background: url(../sonun/photo.jpg) center;
+    background-size: cover;
+
+    width: 100%;
+    max-width: 1200px;
+    height: 500px;
+    position: relative;
+}
+.header_logo {
+    margin-top: 40px;
+    margin-left: 50px;
+    width: 200px;
+    height: 140px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.header_bottom {
+    display: flex;
+    text-align: center;
+    
+    padding: 20px 0 0;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+
+    
+    font-family: 'Merriweather', serif;
+}
+
+.link_container {
+    width: 16.66666%;
+
+    text-align: center;
+    background: black;
+    opacity: 0.6;
+    transition: opacity .2s linear;
+}
+
+.link_container:hover {
+    opacity: .8;
+}
+
+.link_icon {
+    padding-top: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.nav_link_furniture {
+    margin: 0 auto;
+    text-decoration: none;
+    color: white;
+    opacity: 1.5;
+}
+
+.nav_link {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+}
+
+/* about */
+
+.about {
+    width: 100%;
+    font-family: 'Merriweather', serif;
+}
+
+.about_inner {
+    display: flex;
+    position: relative;
+}
+
+.about_view {
+    display: block;
+    margin-top: 50px;
+    width: 600px;
+    height: 400px;
+}
+
+.about_text {
+    display: block;
+    width: 500px;
+    height: 300px;
+
+    color: white;
+    background: black;
+
+    position: absolute;
+    top: 100px;
+    bottom: 100px;
+    left: 500px;
+    right: 0;
+    z-index: 10;
+}
+
+.title {
+    padding: 20px 20px;
+}
+.text {
+    padding: 0 15px;
+}
